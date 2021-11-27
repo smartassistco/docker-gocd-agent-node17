@@ -38,7 +38,7 @@ FROM smartassist/gocd-agent-node17:v21.3.0
 | Runtime    | Version |
 |------------|---------|
 | OS      | Alpine 3.14  |
-| GoCD agent | v21.3.0 |
+| GoCD agent | 21.3.0 |
 | Node       | 17.1.0  |
 
 ## Building
