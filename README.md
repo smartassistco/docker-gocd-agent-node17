@@ -1,11 +1,11 @@
-# GoCD Agent with Node 16 Docker Image
+# GoCD Agent with Node 17 Docker Image
 
 [![dockeri.co](https://dockeri.co/image/smartassist/gocd-agent-node17)](https://hub.docker.com/r/smartassist/gocd-agent-node17)
 
 [![Docker Hub Automated](https://img.shields.io/docker/cloud/automated/smartassist/gocd-agent-node17.svg?style=flat-square&logo=docker "GitHub issues")](https://hub.docker.com/r/smartassist/gocd-agent-node17)
 [![Docker Hub Build Status](https://img.shields.io/docker/cloud/build/smartassist/gocd-agent-node17.svg?style=flat-square&logo=docker "GitHub stars")](https://hub.docker.com/r/smartassist/gocd-agent-node17)
 
-[GoCD Agent on Alpine](https://hub.docker.com/r/gocd/gocd-agent-alpine-3.14) with the latest version of Node 16 added to
+[GoCD Agent on Alpine](https://hub.docker.com/r/gocd/gocd-agent-alpine-3.14) with the latest version of Node 17 added to
 it.
 
 ## Usage
