@@ -12,8 +12,6 @@ it.
 - To use in your docker-compose.yml:
 
 ```yaml
-version: "3.8"
-
 services:
   gocd-agent-node16:
     image: smartassist/gocd-agent-node17:v21.4.0
