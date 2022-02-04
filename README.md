@@ -13,7 +13,7 @@ it.
 
 ```yaml
 services:
-  gocd-agent-node16:
+  gocd-agent-node17:
     image: smartassist/gocd-agent-node17:v21.4.0
     restart: unless-stopped
     env_file: .env
