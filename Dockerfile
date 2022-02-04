@@ -1,6 +1,6 @@
 ## DO NOT MODIFY DIRECTLY. GENERATED WITH generate.sh ##
 
-FROM gocd/gocd-agent-alpine-3.14:v21.3.0
+FROM gocd/gocd-agent-alpine-3.15:v21.4.0
 
 # Become root
 USER root
@@ -11,7 +11,7 @@ USER root
 #
 
 
-ENV NODE_VERSION 17.1.0
+ENV NODE_VERSION 17.4.0
 
 RUN addgroup -g 1001 node \
     && adduser -u 1001 -G node -s /bin/sh -D node \
@@ -23,7 +23,7 @@ RUN addgroup -g 1001 node \
       && case "${alpineArch##*-}" in \
         x86_64) \
           ARCH='x64' \
-          CHECKSUM="2a1978a4384d57cf4f68794a45dc6c934303033fc4f471b7c113f31eb2b1a8f6" \
+          CHECKSUM="4d72694d1e97ebc6eeca5f0401aef471d412e67c057a0c7cc7d79740af3d3d13" \
           ;; \
         *) ;; \
       esac \
@@ -82,7 +82,7 @@ RUN addgroup -g 1001 node \
   && node --version \
   && npm --version
 
-ENV YARN_VERSION 1.22.15
+ENV YARN_VERSION 1.22.17
 
 RUN apk add --no-cache --virtual .build-deps-yarn curl gnupg tar \
   && for key in \
